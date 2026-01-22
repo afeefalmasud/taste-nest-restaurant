@@ -5,8 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Taste Nest</title>
     <link rel="stylesheet" href="styles/style.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+
+    <!-- header -->
+
+    <header>
+        <nav class="oswald-font">
+            <img src="assets/header/logo.png" alt="" class="logo">
+            <ul class="nav-links">
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Shop</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Pages</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            <div class="nav-right">
+                <div class="cart">
+                    <img src="assets/header/cart.png" alt="" class="cart-img">
+                    <p>0</p>
+                </div>
+                <button class="btn-1 nav-contact oswald-font">Contact Us</button>
+                <img src="assets/header/hamburger.png" alt="" class="hamburger">
+            </div>  
+        </nav>
+        <div class="hero fredoka-font">
+            <div class="intro">
+                <h1 class="best">Best Food for</h1>
+                <h1 class="yellow">Best Restaurants</h1>
+                <p>Arriving from Paris in 1986</p>
+                <div class="hero-form">
+                    <input type="text" onfocus="(this.type='number')" onblur="if(!this.value)this.type='text'" name="guest" id="guest" placeholder="No. of Guest" class="grid1">
+                    <input type="text" onfocus="(this.type='date')" 
+                    onblur="if(!this.value)this.type='text'" name="date" id="date" placeholder="Date">
+                    <input type="text" onfocus="(this.type='time')" onblur="if(!this.value)this.type='text'" name="time" id="time" placeholder="Time">
+                </div>
+                <div class="button reserve">
+                    <button class="btn fredoka-font">Reserve Table</button>
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="delivery">
+                    <img src="assets/header/delivery.png" alt="">
+                    <p>Free Delivery 7 <br>Days a Week</p>
+                </div>
+                <div class="right-img">
+                    <img src="assets/header/item1.png" alt="" class="item1">
+                    <img src="assets/header/item2.png" alt="" class="item2">
+                </div> 
+            </div>
+        </div>
+    </header>
 </body>
 </html>
